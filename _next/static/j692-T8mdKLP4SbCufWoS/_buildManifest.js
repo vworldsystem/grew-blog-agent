@@ -3,7 +3,7 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/grew-blog-agent//_next/:path+",
+        "source": "/.//_next/:path+",
         "destination": "/grew-blog-agent/_next/:path+"
       }
     ],
