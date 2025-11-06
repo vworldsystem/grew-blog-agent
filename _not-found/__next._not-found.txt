@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[39756,["/grew-blog-agent/_next/static/chunks/42879de7b8087bc9.js"],"default"]
-3:I[37457,["/grew-blog-agent/_next/static/chunks/42879de7b8087bc9.js"],"default"]
-0:{"buildId":"YZTFArQiF5k29wtjIAjGz","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[39756,["https://vworldsystem.github.io/grew-blog-agent/_next/static/chunks/42879de7b8087bc9.js"],"default"]
+3:I[37457,["https://vworldsystem.github.io/grew-blog-agent/_next/static/chunks/42879de7b8087bc9.js"],"default"]
+0:{"buildId":"GVti_TnKywQ7BqcnagCJB","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
