@@ -63,7 +63,7 @@ export default function Page() {
 
   const genHTML = () => {
     const t = topic || "수면의 질 높이는 루틴";
-    const selectedPrompt = prompts[selectedType].template;
+    const selectedPrompt = prompts[selectedType as keyof typeof prompts].template;
     const filled = selectedPrompt
       .replaceAll("{{TOPIC}}", t)
       .replaceAll("{{CATEGORY}}", category)
@@ -148,9 +148,9 @@ export default function Page() {
 
             {/* PREVIEW */}
             <div className="mt-4 p-4 rounded-2xl bg-white shadow-sm ring-1 ring-gray-100">
-              <h3 className="font-bold text-gray-700">{prompts[selectedType].name}</h3>
+              <h3 className="font-bold text-gray-700">{prompts[selectedType as keyof typeof prompts].name}</h3>
               <p className="text-sm text-gray-600 whitespace-pre-line mt-2">
-                {prompts[selectedType].template.slice(0, 350)}...
+                {prompts[selectedType as keyof typeof prompts].template.slice(0, 350)}...
               </p>
               <p className="text-xs text-gray-400 mt-2">전체 내용은 HTML 생성 시 반영됩니다.</p>
             </div>
