@@ -1,7 +1,7 @@
 "use client";
 import React, { useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { prompts } from "@/lib/promptTemplate";
+import { prompts } from "../src/lib/promptTemplate";
 
 // ---------------------------------------------
 // 🌸 루미 블로그 에이전트 v3
